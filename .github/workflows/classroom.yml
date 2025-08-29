@@ -27,7 +27,7 @@ jobs:
           6
           8
         expected-output: ignore
-        comparison-method: included
+        comparison-method: exact
         timeout: 2
         max-score: 1
 
@@ -43,7 +43,7 @@ jobs:
           6
           8
         expected-output: answer
-        comparison-method: included
+        comparison-method: exact
         timeout: 2
         max-score: 1
 
@@ -59,7 +59,7 @@ jobs:
           6
           7
         expected-output: answer
-        comparison-method: included
+        comparison-method: exact
         timeout: 2
         max-score: 1
 
@@ -75,7 +75,7 @@ jobs:
           5
           9
         expected-output: answer
-        comparison-method: included
+        comparison-method: exact
         timeout: 2
         max-score: 1
 
@@ -91,7 +91,7 @@ jobs:
           0
           9
         expected-output: ignore
-        comparison-method: included
+        comparison-method: exact
         timeout: 2
         max-score: 1
 
